@@ -1,11 +1,19 @@
-import React from "react"
+import React, {useState} from "react"
+import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
-        <div>
+      <>
+        <nav className="Navbar">
 
+            <div className="navbar-container">
+                <Link to = "/" className="navbar-logo">
+                    Bz Bikes <i className="fab fa-typo3"></i>
+                </Link>
+            </div>
 
-        </div>
+        </nav>                   
+      </>
     )
 }
 
